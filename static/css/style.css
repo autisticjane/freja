@@ -1,0 +1,112 @@
+/*!
+ * Theme Name: Goldnotter
+ * Theme URI: https://smoothiesbycolor.com
+ * Description: A mobile-first one-column theme comprised of web-safe colors and made with accessibility in mind.
+ * Version: 1.0
+ * Author: Jane
+ * Author URI: https://janepedia.com/
+ * Copyright © 2018 Jane Lawson. This work is not to be redistributed. All rights reserved.
+ */
+body {font:400 1.3rem/2.3rem "Nunito Sans",'Titillium Web',sans-serif;margin:0 auto;color:#444}
+.page--index,.page--single{margin:0 auto;color:#333;padding:10px}
+h1{line-height:3.5rem;font-size:3rem;color:#aa8f00}
+h2{color:#30cfd0}
+h3{color:#444;font-size:1.7rem;line-height:1.79rem}
+h1,h2,h3,h5{text-transform:lowercase;font-weight:normal}
+h4,h6{text-transform:uppercase;font-weight:normal}
+h2{font-family:"Text Me One",sans-serif}
+h1{font-family:"Sintony",sans-serif}
+h3,h4,h5,h6{font-family:"Sintony",sans-serif}
+.accordion{cursor:pointer;width:100%;border:none;text-align:left;outline:none;transition:0.4s}
+.active,.accordion:hover{color:#d24d57}
+.accordion:after{content:'\002B';color:#777;font-weight:bold;float:right;margin-left:5px}
+.active:after{content:"\2212"}
+.panel{padding:0;max-height:0;overflow:hidden;transition:max-height 0.2s ease-out}
+a{color:#d24d57;text-decoration:none}
+a:focus{background-color:#eee}
+a:hover,.title--site a:hover{color:#444}
+.button{padding:1rem;color:#fff;background-image:linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);display:block}
+header{text-align:center}
+footer{font:normal 1rem/1.6rem "Titillium Web",sans-serif;color:#939393;display:flex;justify-content:space-between;flex-flow:row wrap;align-items:center;align-content:flex-start}
+footer a{text-transform:lowercase;color:#939393}
+footer a:hover{color:#aa8f00}
+
+/*various classes*/
+.center{text-align:center}
+.lowercase{text-transform:lowercase}
+.avatar{float:right;max-width:100px;-webkit-border-top-left-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;}
+/*titles*/
+.title--site a{font:normal 3rem/3.5rem "Sintony",sans-serif;color:#aa8f00}
+/*menus*/
+ul.menu--main{margin:0;padding:0;text-transform:lowercase;list-style:none;display:flex;justify-content:space-between;flex-direction:row;flex-wrap:wrap;align-items:stretch;align-content:flex-start;text-align:center}
+.menu--colors{color:#939393;font:italic 1rem/1.3rem "Sintony",sans-serif;text-transform:lowercase}
+.menu--colors ul{margin:0;padding:0;text-transform:lowercase;list-style:none;display:flex;justify-content:space-between;flex-direction:row;flex-wrap:wrap;align-items:center;align-content:flex-start}
+.color-nav--red{color:#ff0000}
+.color-nav--orange{color:#ff4500}
+.color-nav--yellow{color:#aa8f00}
+.color-nav--green{color:#00aa00}
+.color-nav--blue{color:#009fd4}
+.color-nav--violet{color:#ff00ff}
+.color-nav--multi{color:#939393}
+header ul{display:flex;list-style:none;margin:0;padding:0;text-transform:lowercase;justify-content:space-between;align-items:flex-start}
+	header ul {
+ display: flex;
+ flex-flow: row-wrap;
+ list-style-type: none;
+}
+
+header ul li {
+ padding: 0 1.4em 0 0;
+ font-size: 1.4rem;
+}
+	footer ul {
+ display: flex;
+ flex-flow: row-wrap;
+ list-style-type: none;
+}
+
+footer ul li {
+ padding: 0 1.4em 0 0;
+ font-size: 1rem;
+}
+figure,img{max-width:100%}
+figure{margin:10px 0}
+figcaption{font-size:1rem;line-height:1.5rem;margin:5px 20px;color:#939393}
+@media only screen and (min-width:515px) and (max-width:579px){
+	header{display:flex;justify-content:space-around;flex-flow:row wrap}
+	header ul {
+ display: flex;
+ flex-flow: row;
+ list-style-type: none;
+}
+
+header ul li {
+ padding: 0 1.4em 0 0;
+ font-size: 1.4rem;
+}
+	.title--site{flex:0 0 100%}
+}
+@media only screen and (min-width:580px){.page--index{max-width:740px}
+.page--single{max-width:700px}
+header{display:flex;justify-content:space-between;flex-flow:row wrap;align-items:center;align-content:flex-start}
+.avatar{float:right;max-width:100px;-webkit-border-top-left-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;}
+header ul {
+ display: flex;
+ flex-flow: row wrap;
+ list-style-type: none;
+}
+
+header ul li {
+ padding: 0 1.4em 0 0;
+ font-size: 1.4rem;
+}}
