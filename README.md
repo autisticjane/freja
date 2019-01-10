@@ -5,3 +5,6 @@ Theme for [Smoothies by Color](https://smoothiesbycolor.com). Please don't copy 
 [Release blog post](https://janepedia.com/goldnotter)
 
 The name "goldnotter" is an ode to a classy web designer I admired, who went by "goldenotter"; it's simply the *e* that is missing. The "gold" color used in this theme is the brightest yellow shade available on [Color Safe](http://colorsafe.co), but I wanted to make an accessible design regardless of any personal feelings regarding the color. I sort of just fell in love with the yellow shade, which I don't typically see on food blogs and thought would contribute well to a *smoothie* blog, considering I don't totally plan to do mostly yellow shades of smoothies.
+
+### Some things to note
+As [Georgie](https://hey.georgie.nu) has designed themes for my personal blog, I've become familiar with her code, thus adopting her class names and whatnot because it's more a force of habit -- although I do find it's much easier to keep up with than what I've concocted on my own.
