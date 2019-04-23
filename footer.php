@@ -1,12 +1,8 @@
+		</div><!-- body--main -->
 		<footer>
-			<p>&copy; 2019 Smoothies by Color</p>
-			<nav class="menu--footer">
-				<ul>
-					<li><a href="#">All posts</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="https://github.com/gotjane/goldnotter" class="byjane">&lt;/&gt;</a></li>
-				</ul>
+			<p>&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>&trade;</p>
+			<nav class="menu--footer" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 			</nav>
 		</footer>
        <!--js-->
@@ -26,7 +22,7 @@
               });
             }
             </script>
-			<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <!--end js-->
+		<?php wp_footer(); ?>
 	</body>
 </html>
