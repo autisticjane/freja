@@ -7,4 +7,4 @@ As [Georgie](https://hey.georgie.nu) has designed themes for my personal blog, I
 ## v1.0 - Freja
 > [Release blog post](https://janepedia.com/freja)
 
-Working title: "goldnotter", a misspelling of "goldnotter", as an ode to a classy web designer I admired in high school, who was 2-3 years older than me.
+Working title: "goldnotter", a misspelling of "goldnotter", as an ode to a classy web designer I admired in high school, who was 2-3 years older than me and created minimalist designs before it was cool.
