@@ -1,4 +1,4 @@
-# Freja
+# freja
 Theme for [Smoothies by Color](https://smoothiesbycolor.com). Please don't copy this without credit and instead respect it, 'cause it's my messy love song and could prove embarrassing on your part. *Smoothies by Color* is my smoothie recipe and tips blog, for-profit from the start. I'm not a coding genius, so if you have better ideas for something I did, please let me know!
 
 ## Some things to note
