@@ -8,7 +8,7 @@
 		<link rel="dns-prefetch" href="//smoothiesbycolor.com/wp-content/uploads/">
 		<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/images/default.png">
 		<!-- stylesheets -->
-		<link href="https://fonts.googleapis.com/css?family=Text+Me+One|Nunito+Sans|Sintony|Titillium+Web" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Sintony" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<!-- wordpress -->
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -18,21 +18,10 @@
 		
 	</head>
 	<body>
-		<header>
-			<span class="title-site"><a href="#" title="Go to homepage">s/c</a></span>
-			<nav>	
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Recipes</a></li>
-					<li><a href="#">Tips</a></li>
-					<!--<li><a href="https://instagram.com/gotjane" title="Instagram"><i class="fab fa-instagram big-icon"></i></a></li>
-					<li><a href="https://pinterest.com/janepedia" title="Pinterest"><i class="fab fa-pinterest big-icon"></i></a></li>
-					<li><a href="https://twitter.com/gotjane" title="Twitter"><i class="fab fa-twitter big-icon"></i></a></li>-->
-				</ul>
+		<header class="site-header">
+			<span class="site-title"><a href="<?php echo get_site_url(); ?>" title="Go to homepage">s/c</a></span>
+			<nav class="header-navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 			</nav>
-			<div class="menu-main--search">
-				Search form here [button]
-			</div>
 		</header>
-		<?php get_template_part( 'menu-colors' ); ?>
-		<div class="body--main">
+		<div class="main-content">
