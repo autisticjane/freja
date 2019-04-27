@@ -168,7 +168,7 @@ ul li{
 ol{
 	counter-reset:section;
 	list-style-type:none;
-	margin:9375rem
+	margin:.9375rem
 }
 ol li:before{
 	position:absolute;
